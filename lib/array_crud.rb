@@ -7,30 +7,30 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
-  animals.push("snake")
+  array.push(element)
 end
 
 def add_element_to_start_of_array(array, element)
-  animals.unshift("wombat")
+  array.unshift(element)
 end
 
 def remove_element_from_end_of_array(array)
-  animals.pop
+  array.pop
 end
 
 def remove_element_from_start_of_array(array)
-  animals.shift
+  array.shift
 end
 
 def retrieve_element_from_index(array, index_number)
-  animals.include("cat")
+  array.include(index_number)
 end
 
 def retrieve_first_element_from_array(array)
-  animals.first
+  array.first
 
 end
 
 def retrieve_last_element_from_array(array)
-  animals.last
+  array.last
 end
